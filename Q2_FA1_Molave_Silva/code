@@ -7,10 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1YF1mX7wpXNCjDwVZ5W3QCQitz1-EnxlI
 """
 
+""gets the first number and second number to be used later on""
 num1=int(input("please enter the first number ", ))
 
 num2=int(input("please enter the second number ", ))
 
+""the operations the user can use""
 def addition():
   result = num1+num2
   return result
@@ -33,9 +35,10 @@ print ("2. subtraction")
 print ("3. Multiplication")
 print ("4. Division")
 
+""gets the operation the user would like to use""
 operation=int(input("pick an operation from 1-4 ", ))
 
-if op==1:
+if operation==1:
   print ("the result is", addition())
 elif operation==2:
   print ("the result is", subtraction())
